@@ -14,4 +14,7 @@ for i in range(5):
         print("猜對了^^~~")
         break
     else:
-        print("猜錯了><~~~")
+        if y > x:
+            print("猜低一點!")
+        else:
+            print("猜高一點了~~!")
