@@ -1,22 +1,17 @@
 import random
 
 
-#1~50
-#使用者猜5次
-#猜對提前離開
+# 1~50
+# 使用者猜5次
+# 猜對提前離開
 # 猜錯,提前離開
 
-x=random.randint(1,50)
+x = random.randint(1, 50)
 print(x)
 for i in range(5):
-    y=int(input('請猜數字(1~50)'))
-    if y==x:
-        print('猜對了^^~~')
+    y = int(input("請猜數字(1~50)"))
+    if y == x:
+        print("猜對了^^~~")
         break
     else:
-        print('猜錯了><~~~')
-
-    
-    
-
-
+        print("猜錯了><~~~")
